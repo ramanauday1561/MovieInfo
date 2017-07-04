@@ -1,4 +1,5 @@
 $(document).ready(() => {
+  console.log("Working");
   $('#searchForm').on('submit', (e) => {
     let searchText = $('#searchText').val();
     searchMovie(searchText);
